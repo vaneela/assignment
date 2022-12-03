@@ -1,0 +1,98 @@
+{
+	"info": {
+		"_postman_id": "76de778e-7cec-4921-9401-721d37ebf1f7",
+		"name": "Xharktank",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Create A Pitch",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"entrepreneur\": \"abc\",\n    \"equity\": 12,\n    \"askAmount\": 1234,\n    \"pitchTitle\": \"abc\",\n    \"pitchIdea\": \"abc\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8081/api/pitches",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"api",
+						"pitches"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get All Pitches",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8081/api/pitches",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"api",
+						"pitches"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get Single Pitch",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8081/api/pitches",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"api",
+						"pitches"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "CounterOffer",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8081/api/pitches",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"api",
+						"pitches"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
